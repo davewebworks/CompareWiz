@@ -3,7 +3,7 @@
     "FieldsToMatch": [
         "DOB_col",
         "FirstName_col", 
-        "LastName_col",
+        "LastName_col",      
         "Student ID"
     ],
     "File1": "C:\\Users\\dakselro\\Documents\\GD\\OneDrive\\_REFERENCES\\python\\my_python\\excel_diff\\table_new.xlsx",
