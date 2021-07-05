@@ -2,7 +2,7 @@
     "Description": "All IDs and other data in File1 will be matched and compaired to those in File2",
     "FieldsToMatch": [
         "DOB_col",
-        "FirstName_col",
+        "FirstName_col", 
         "LastName_col",
         "Student ID"
     ],
