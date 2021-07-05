@@ -1,0 +1,29 @@
+{
+        "updated": "6/27/2021",
+        "version" : 1.1,
+        "excel2": {
+        "filename": "C:\\Users\\dakselro\\Documents\\GD\\OneDrive\\_REFERENCES\\python\\my_python\\excel_diff\\table_old.xlsx",
+        "sheet_name": "MyList",
+        "ID_field": "Stud ID",
+        "FieldsToMatch" :{
+            "DOB_col": "DOB",
+            "FirstName_col": "First Name",
+            "LastName_col": "Last name"             }  
+        },
+        "excel1": {
+        "filename": "C:\\Users\\dakselro\\Documents\\GD\\OneDrive\\_REFERENCES\\python\\my_python\\excel_diff\\table_new.xlsx",
+        "sheet_name": "Students",
+        "ID_field": "ID",
+        "FieldsToMatch" :{
+            "DOB_col": "DOBirth",
+            "FirstName_col": "First",
+            "LastName_col": "Last"         }
+        },    
+        "reports": {
+            "report_ID_infile1_but_not_infile2": "DONE_ALWAYS",
+            "report_ID_infile2_but_not_infile1": "yes",
+            "logfile_name":"excel_log.txt"
+        }
+    
+    
+}

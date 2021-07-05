@@ -1,0 +1,63 @@
+{
+    "Description": "All IDs and other data in File1 will be matched and compaired to those in File2",
+    "FieldsToMatch": [
+        "DOB_col",
+        "FirstName_col",
+        "LastName_col",
+        "Student ID"
+    ],
+    "File1": "C:\\Users\\dakselro\\Documents\\GD\\OneDrive\\_REFERENCES\\python\\my_python\\excel_diff\\table_new.xlsx",
+    "Sheet1": "Students",
+    "File2": "C:\\Users\\dakselro\\Documents\\GD\\OneDrive\\_REFERENCES\\python\\my_python\\excel_diff\\table_new.xlsx",
+    "Sheet2": "Students",
+    "log created": "2021-06-27 15:09:31",
+    "version": "v1",
+    "mismatches": 9,
+    "mismatched_entries": [
+        {
+            "Mismatch #": 1,
+            "ID": 3322,
+            "error_type": "Element DOBirth mismatch: 1966-05-07 00:00:00 vs 1965-05-07 00:00:00 for ID: 3322"
+        },
+        {
+            "Mismatch #": 2,
+            "ID": 3322,
+            "error_type": "Element First mismatch: Aruns vs Arun for ID: 3322"
+        },
+        {
+            "Mismatch #": 3,
+            "ID": 34444,
+            "error_type": "ID 34444 found [2] times in table1"
+        },
+        {
+            "Mismatch #": 4,
+            "ID": 34444,
+            "error_type": "ID 34444 from table1 NOT found in table2"
+        },
+        {
+            "Mismatch #": 5,
+            "ID": 83344,
+            "error_type": "Element First mismatch: Dmitry vs Dima  for ID: 83344"
+        },
+        {
+            "Mismatch #": 6,
+            "ID": 83344,
+            "error_type": "Element Last mismatch: Perfectos    vs Perfecto for ID: 83344"
+        },
+        {
+            "Mismatch #": 7,
+            "ID": 12334,
+            "error_type": "ID 12334 from table1 NOT found in table2"
+        },
+        {
+            "Mismatch #": 8,
+            "ID": 3455,
+            "error_type": "ID 3455 from table1 found [2] times in table2"
+        },
+        {
+            "Mismatch #": 9,
+            "ID": 12333,
+            "error_type": "ID 12333 from table2 NOT found in table1"
+        }
+    ]
+}
