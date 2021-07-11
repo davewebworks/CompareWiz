@@ -6,7 +6,7 @@
         "sheet_name": "MyList",
         "ID_field": "Stud ID",
         "FieldsToMatch" :{
-            "DOB_col": "DOB",
+            "DOB_col":  "DOB",
             "FirstName_col": "First Name",
             "LastName_col": "Last name"             }  
         },
