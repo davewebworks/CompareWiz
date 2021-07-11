@@ -1,0 +1,9 @@
+TODO LIST
++++++++++
+- Update README with more details
+
+
+
+
+ISSUES LIST
+++++++++++
